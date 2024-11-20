@@ -1,4 +1,3 @@
-// @ts-check
 import { createConfigForNuxt } from '@nuxt/eslint-config/flat';
 import configPrettier from 'eslint-config-prettier';
 
@@ -13,7 +12,4 @@ export default createConfigForNuxt({
 	dirs: {
 		src: ['./playground'],
 	},
-}).append(
-	// your custom flat config here...
-	configPrettier
-);
+}).append(configPrettier);

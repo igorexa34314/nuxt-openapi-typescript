@@ -1,3 +1,4 @@
+/* eslint-disable */
 // Private function
 // Internal URI splitter method - direct from RFC 3986
 function splitUri(uri: string) {

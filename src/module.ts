@@ -18,7 +18,7 @@ export default defineNuxtModule<ModuleOptions>({
 		schemaPath: './openapi/schema.json',
 		moduleName: 'openapi-schema-generated',
 	},
-	async setup(options, nuxt) {
+	async setup(options) {
 		let schemaPath: URL;
 		let localPath: string | null = null;
 

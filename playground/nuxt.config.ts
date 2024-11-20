@@ -2,7 +2,7 @@ export default defineNuxtConfig({
 	modules: ['../src/module'],
 
 	openapiTypescript: {
-		schemaPath: './sgdfgdfgdi/schema.json',
+		schemaPath: './openapi/schema.json',
 	},
 
 	devtools: { enabled: true },
